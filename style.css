@@ -44,8 +44,8 @@ p {
 
 .counter {
     position: fixed;
-    top: 10%;
-    right: 25%;
+    top: 25%;
+    left: 50%;
 }
 
 .counter_shots {
