@@ -2,12 +2,16 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    max-width: 100%;
+}
+
 .intro {
     font-size: 14px;
 }
 
 .log {
-    width: 30vw;
+    width: 40vw;
 }
 
 .log_entry {
@@ -33,7 +37,7 @@ html {
 .attack {
     position: fixed;
     top: 10%;
-    left: 50%;
+    left: 75%;
 }
 
 p {
@@ -45,7 +49,7 @@ p {
 .counter {
     position: fixed;
     top: 25%;
-    left: 50%;
+    left: 75%;
 }
 
 .counter_shots {
@@ -54,6 +58,7 @@ p {
 
 .counter_station-hp {
     background-color: rgb(209, 33, 33);
+    position: fixed;
     top: 0;
     left: 0;
     height: 4px;

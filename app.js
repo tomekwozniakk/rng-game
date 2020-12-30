@@ -20,7 +20,7 @@ const spaceStation = {type: 'space station', name: 'USS Toilet', hp:1000, system
         logEntry.classList.add('log_entry');
         logEntry.classList.add('log_entry-destroyed');
         log.appendChild(logEntry);
-        stationsHp.style.width = 0 + `vw`;
+        stationsHp.style.width = 0 + `%`;
     }
 
     else {
